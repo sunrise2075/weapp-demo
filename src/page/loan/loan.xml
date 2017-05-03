@@ -1,0 +1,37 @@
+<view class="container">
+  <view class="page-body">
+    <scroll-view class="loan_list" scroll-y="true" style="height:100%;" bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
+   <navigator url="../loan_detail/loan_detail">
+   <view class="loan_box">
+        <view class="loan_b_top">
+          <text class="loan_name">个人信用贷款</text>
+          <image src="../../image/arrowright.png" class="loan_icon"></image>
+          <image src="http://www.baonengdai.cn/tbcServer/upload/agency/9a387c438cbc474b8ddf07e42c81a0c2.png" class="loan_img"></image>
+        </view>
+        <view class="loan_sj">
+          <view class="loan_sj_l">
+            <text class="loan_wz_d">0.85</text>
+            <text class="loan_wz_x">%</text>
+            <text class="loan_wz_b">月利息</text>
+          </view>
+          <view class="loan_sj_l">
+            <text class="loan_wz_d">50</text>
+            <text class="loan_wz_x">万</text>
+            <text class="loan_wz_b">最高额度</text>
+          </view>
+          <view class="loan_sj_l">
+            <text class="loan_wz_d">36</text>
+            <text class="loan_wz_x">个月</text>
+            <text class="loan_wz_b">产品期限</text>
+          </view>
+        </view>
+        <view class="loan_bttom">
+        <text class="loan_bq">用户群体</text>
+        <text class="loan_ms">商业保险</text>
+        </view>
+      </view>
+   </navigator>
+      
+    </scroll-view>
+  </view>
+</view>

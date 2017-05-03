@@ -1,0 +1,14 @@
+.loan_icon{ height: 40rpx; width:40rpx; float: right;}
+.loan_img{height: 40rpx; width:140rpx; float: right; margin-right: 10rpx;}
+.loan_box{ background: #fff; margin-bottom:20rpx; padding:6rpx 0;}
+.loan_name{ height: 40rpx; line-height: 40rpx; font-size: 36rpx;}
+.loan_b_top{ padding:14rpx 10rpx; border-bottom: 1px solid #e8e8e8;}
+.loan_sj{ display: flex; color: #f04414; padding: 28rpx 0; border-bottom: 1px solid #e8e8e8;}
+.loan_sj_l{text-align: center;  width: 0%; flex: 1;}
+.loan_wz_d{ font-size: 60rpx;}
+.loan_wz_x{font-size:28rpx;}
+.loan_wz_b{ display: block; font-size: 24rpx; color: #ccc;}
+.loan_bttom{padding:14rpx 10rpx;}
+.loan_bq{ border: 1px solid #006cd9; padding:4rpx 10rpx; color:#006cd9; font-size: 24rpx;border-radius:10rpx; margin-right: 20rpx; }
+.loan_ms{ font-size: 28rpx;}
+.loan_list{ height:100vh;}

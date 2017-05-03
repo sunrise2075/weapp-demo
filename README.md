@@ -186,72 +186,14 @@ $ npm run build
 同样可以通过`微信Web开放者工具`测试。
 
 
-## 开发计划
-
-- [x] 自动化生成新页面所需文件；
-- [x] 自动生成新页面时，自动添加配置到`app.json`；
-- [x] 加入`ES2015`的`Polyfill`，支持类似`Promise`的新`API`；
-- [x] 自动刷新`微信Web开放者工具`中的预览；
-- [ ] `HTML` to `WXML` 转换器，让大家可以直接使用`HTML`元素开发；
-
-
-## 分支说明
-
-> for 新手同学
-
-这段时间有很多人反映代码看不懂，没法看下去。
-
-可能有很多刚入门的同学，刚开始学习没有接触太多，而我的这个仓库也旨在服务大众。
-
-为此特地创建多个分支，每个分支的特点和复杂程度各不相同（计划，请持续关注）：
-
-- [x] [level-00](https://github.com/zce/weapp-demo/tree/level-00)
-
-+ 最基本的微信小程序项目结构
-+ 一个简单页面的工作
-
-- [x] [level-01](https://github.com/zce/weapp-demo/tree/level-01)
-
-+ 包含`NavigationBar`和`TabBar`的设置
-+ 多标签页面切换
-
-- [x] [level-02](https://github.com/zce/weapp-demo/tree/level-02)
-
-+ 划分程序中的各个页面
-+ 分别完成各个页面的结构和布局
-
-- [x] [level-03](https://github.com/zce/weapp-demo/tree/level-03)
-
-+ 页面与页面之间的跳转
-
-- [x] [level-04](https://github.com/zce/weapp-demo/tree/level-03)
-
-+ 使用假数据的方式完成数据绑定
-
-- [ ] [level-05](https://github.com/zce/weapp-demo/tree/level-04)
-
-+ 改用`wx.request`接口调用`豆瓣API`完成数据加载
-+ 增加加载过程界面体现（loading）
-
-- [ ] [level-06](https://github.com/zce/weapp-demo/tree/level-05)
-
-+ 封装操作`豆瓣API`的模块
-+ 二次封装`微信API`为`Promise`的实现
-
-- [ ] [level-07](https://github.com/zce/weapp-demo/tree/level-06)
-
-+ 上拉加载（数据分页）
-
-- [ ] [level-08](https://github.com/zce/weapp-demo/tree/level-07)
-
-+ 其他`微信API`的使用
-+ ..
-
-- [x] master
-
-+ 主线版本，包含全部功能和特性！
-
-
 ## 许可
 
 [MIT](./LICENSE) &copy; [汪磊](http://github.com/zce)
+
+## 使用淘宝的registry源安装依赖包
+
+     npm install cnpm -g --registry=https://registry.npm.taobao.org
+
+
+     cnpm install [name]
+
